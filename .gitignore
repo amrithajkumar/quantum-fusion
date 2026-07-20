@@ -216,3 +216,44 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================
+# Quantum Fusion Project
+# ==========================
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# React build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# AI / ML
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Data files (keep placeholder only)
+datasets/*
+!datasets/.gitkeep
